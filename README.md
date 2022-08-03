@@ -14,7 +14,11 @@ Sistema de altas de usuarios para el examen de Nezter
     <li>Una vez abierto el proyecto, en las opciones para iniciar, indicar que se ejecutará con iiexpress y dar al botón de iniciar</li>
     <li>Una vez ejecutado el proyecto ALTASAPICORE y abierto el navegador, se abre un cmd o símbolo del sistema para ejecutar el proyecto de angular</li>
     <li>Debe de acceder a la carpeta sistemadealtas que se encuentra en este repositorio</li>
-    <li>Una vez dentro ejecutar el comando: <b>ng serve</b></li>
+    <li>Una vez dentro ejecutar el comando: <b>npm i</b></li>
+    <li>Se descargará la carpeta node_modules con las dependencias necesarias para correr el proyecto de angular</li>
+    <li>Una vez descargada la carpeta, entrar en node_modules/ngx-toastr/toast/</li>
+    <li>dentro de esa carpeta remplazar los archivos <b>toastr-config.d.ts</b> y <b>toastr.service.d.ts</b> por los archivos con el mismo nombre que se encuentran en la carpeta raiz del repositorio llamada: <b>archivos para remplazar</b></li>
+    <li>Una vez hecho los pasos anteriores, ejecutar el comando: <b>ng serve</b></li>
     <li>Después de eso entrar al navegador con el servidor local proporcionado por angular, localhost:4200</li>
     <li>Una vez dentro se abrirá el resultado del examen, recuerde que existe el usuario: <b>UserExamen</b> con la contraseña: <b>*Examen2021</b></li>
   </ul>
