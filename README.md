@@ -27,6 +27,8 @@ Sistema de altas de usuarios para el examen de Nezter
     <li>Puede que exista un usuario extra aparte del solicitado probando las acciones CRUD </li>
     <li>No soy muy experto en Angular Material pero lo use para la paginación, pero me ocasionó varios problemas</li>
     <li>Por si cualquier problema al ejecutar cualquier cosa de este repositorio comuniquese conmigo por el whatsapp</li>
+    <li>Agregue el proyecto de Asp. Net Core pero para probarlo es más largo el proceso y creo que para un examen no es necesario pero si se considera necesario me lo hace saber
+    </li>
   </ul>
 <div>
 
