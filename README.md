@@ -1,12 +1,6 @@
 # SistemaDeAltas
 Sistema de altas de usuarios para el examen de Nezter
 
-<style>
-div{
-  margin-bottom: 5%;
-}
-</style>
-
 <div>
   <H1>Examen para Nezter</H1>
   <H3>Para el encargado de revisión, saludos. Explicaré un poco de lo que se necesita para probar el resultado del examen</H3>
