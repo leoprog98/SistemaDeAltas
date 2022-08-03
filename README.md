@@ -29,6 +29,9 @@ Sistema de altas de usuarios para el examen de Nezter
     <li>Por si cualquier problema al ejecutar cualquier cosa de este repositorio comuniquese conmigo por el whatsapp</li>
     <li>Agregue el proyecto de Asp. Net Core en modo producción pero para probarlo es más largo el proceso y creo que para un examen no es necesario pero si se considera necesario me lo hace saber
     </li>
+    <li>Solo los primeros 5 estados tienen sus ciudades, pensaba agregarlas todas pero lo estaba haciendo al inicio y pensé que era innesesario para demostrar la   funcionalidad de los dropdowns en cascada</li>
+    <li>En caso de que sql server no permita la autenticación de windows, abrir el archivo en la carpeta ALTASAPICORE/ALTASAPICORE/appsettings.json y cambiar la cadena de conexion</li>
+    <li>Para ser más específico cambiar la parte que dice: <b>Integrated Securitiy=True</b> por: <b>user id=user; password=passwrd</b> donde <b>user</b> es el usuario con el que se conecta a sql server y <b>passwrd</b> es la contraseña</li>
   </ul>
 <div>
 
