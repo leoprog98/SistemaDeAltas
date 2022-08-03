@@ -1,0 +1,18 @@
+<form class="form-signin" aling="center" [formGroup]="form" (ngSubmit)="login()">
+    <img class="mb-4" src="assets/img/logo-nezter.png" alt="" width="300" height="100">
+    <h1 class="h3 mb-3 font-weight-normal">Introduce tus datos</h1>
+    <label for="userName" class="sr-only">Usuario</label>
+    <div class="inputWithIcon">
+        <input type="text" class="input" placeholder="Usuario" required autofocus name="userName" formControlName="cUsuario" required/>
+        <i class="fa fa-user"></i></div>
+    <div class="inputWithIcon">
+        <label for="password" class="sr-only">Contraseña</label>
+        <input type="password" class="input" placeholder="Contraseña" required name="password" formControlName="contrasena" />
+        <i class="fa fa-key"></i>
+    </div>
+    <button class="btn btn-lg btn-block">Iniciar Sesión</button>
+    <br>
+        <p *ngIf="mensaje.length > 0" class="p-2 bg-danger text-white">
+            {{mensaje}}
+        </p>
+</form>

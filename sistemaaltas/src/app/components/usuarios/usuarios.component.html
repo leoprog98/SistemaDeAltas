@@ -1,0 +1,226 @@
+<div class="row">
+  <div class="col"><h1 class="title">Usuarios</h1></div>
+  <div class="col"><button *ngIf="loginService.tipoUsuario == 1" class="btn btn-agregar" data-bs-toggle="modal" data-bs-target="#Modal" (click)="agregarUsuario()">
+    <i class="fa fa-plus"></i><span class="ocultar-texto"> Agregar Usuario</span>
+  </button>
+  </div> 
+</div>
+<div class="mat-elevation-z8">
+<table mat-table [dataSource]="dataSource" class="table">
+
+  <ng-container matColumnDef="Id">
+    <th mat-header-cell *matHeaderCellDef>Id</th>
+    <td mat-cell *matCellDef="let usuario"> {{usuario.idUsuario}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Usuario">
+    <th mat-header-cell *matHeaderCellDef> Usuario </th>
+    <td mat-cell *matCellDef="let usuario"> {{usuario.cUsuario}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Nombre">
+    <th mat-header-cell *matHeaderCellDef> Nombre </th>
+    <td mat-cell *matCellDef="let usuario"> {{usuario.nombre}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Dirección">
+    <th class="ocultar-columna" mat-header-cell *matHeaderCellDef> Dirección </th>
+    <td class="ocultar-columna" mat-cell *matCellDef="let usuario"> {{usuario.direccion}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Teléfono">
+    <th class="ocultar-columna" mat-header-cell *matHeaderCellDef> Teléfono </th>
+    <td class="ocultar-columna" mat-cell *matCellDef="let usuario"> {{usuario.telefono}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Codigo Postal">
+    <th class="ocultar-columna" mat-header-cell *matHeaderCellDef> Codigo Postal </th>
+    <td class="ocultar-columna" mat-cell *matCellDef="let usuario"> {{usuario.codigoPostal}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Tipo Usuario">
+    <th mat-header-cell *matHeaderCellDef> Tipo Usuario </th>
+    <td mat-cell *matCellDef="let usuario"> {{usuario.descripcionTipo}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Estado">
+    <th mat-header-cell *matHeaderCellDef> Estado </th>
+    <td mat-cell *matCellDef="let usuario"> {{usuario.descripcionEstado}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Ciudad">
+    <th mat-header-cell *matHeaderCellDef> Ciudad </th>
+    <td mat-cell *matCellDef="let usuario"> {{usuario.descripcionCiudad}} </td>
+  </ng-container>
+
+   <!-- Symbol Column -->
+   <ng-container *ngIf="loginService.tipoUsuario == 1" matColumnDef="Editar">
+    <th  mat-header-cell *matHeaderCellDef> Editar </th>
+    <td mat-cell *matCellDef="let usuario"> <a (click)="editarUsuario(usuario)" data-bs-toggle="modal" data-bs-target="#Modal"><i class="fa fa-edit"></i></a> </td>
+  </ng-container>
+
+  <!-- Symbol Column -->
+   <ng-container *ngIf="loginService.tipoUsuario == 1" matColumnDef="Eliminar">
+    <th mat-header-cell *matHeaderCellDef> Eliminar </th>
+    <td mat-cell *matCellDef="let usuario"> <a (click)="confirmarEliminarUsuario(usuario.idUsuario)"><i class="fa fa-trash"></i></a> </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator [pageSize]="10" class="paginador"
+  showFirstLastButtons hidePageSize
+  aria-label="Select page of usuarios">
+  </mat-paginator>
+</div>
+<!--<table *ngIf="usuarios" class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Usuario</th>
+            <th>Nombre</th>
+            <th class="ocultar-columna">Dirección</th>
+            <th class="ocultar-columna">Teléfono</th>
+            <th class="ocultar-columna">Codigo Postal</th>
+            <th>Tipo Usuario</th>
+            <th class="ocultar-columna">Estado</th>
+            <th>Ciudad</th>
+            <th *ngIf="loginService.tipoUsuario == 1">Editar</th>
+            <th *ngIf="loginService.tipoUsuario == 1">Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usuario of usuarios">
+            <td>{{usuario.idUsuario}}</td>
+            <td>{{usuario.cUsuario}}</td>
+            <td>{{usuario.nombre}}</td>
+            <td class="ocultar-columna">{{usuario.direccion}}</td>
+            <td class="ocultar-columna">{{usuario.telefono}}</td>
+            <td class="ocultar-columna">{{usuario.codigoPostal}}</td>
+            <td>{{usuario.descripcionTipo}}</td>
+            <td class="ocultar-columna">{{usuario.descripcionEstado}}</td>
+            <td>{{usuario.descripcionCiudad}}</td>
+            <td *ngIf="loginService.tipoUsuario == 1">
+                <a (click)="editarUsuario(usuario)" data-bs-toggle="modal" data-bs-target="#Modal"><i class="fa fa-edit"></i></a>
+            </td>
+            <td *ngIf="loginService.tipoUsuario == 1">
+                <a (click)="confirmarEliminarUsuario(usuario.idUsuario)"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+    </tbody>
+</table>-->
+
+  <!-- -------------------------------------------  -->
+  
+  <!-- Modal -->
+  <div class="modal fade" *ngIf="loginService.tipoUsuario == 1" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLabel">{{tituloModal}}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="form" (ngSubmit)="guardarBtn()">
+            <label for="userName" class="sr-only">Usuario</label>
+            <div class="inputWithIcon">
+                <input type="text" placeholder="Usuario"
+                [class.input]="this.form.get('cUsuario')?.valid || this.form.get('cUsuario')?.untouched"
+                [class.input-incorrecto]="this.form.get('cUsuario')?.invalid && this.form.get('cUsuario')?.touched"
+                 autofocus name="userName" formControlName="cUsuario" />
+                <i class="fa fa-user"></i></div>
+                <p *ngIf="this.form.get('cUsuario')?.invalid && this.form.get('cUsuario')?.touched" class="p-2 bg-danger text-white">
+                  El usuario debe tener de 1 a 16 caracteres
+                </p>
+                <div *ngIf="accionModal == 'agregar'">
+                  <div class="inputWithIcon">
+                    <input type="password" placeholder="Contraseña" 
+                    [class.input]="this.form.get('contrasena')?.valid || this.form.get('contrasena')?.untouched"
+                    [class.input-incorrecto]="this.form.get('contrasena')?.invalid && this.form.get('contrasena')?.touched"
+                     autofocus name="contrasena" formControlName="contrasena" />
+                    <i class="fa fa-key"></i>
+                    <p *ngIf="this.form.get('contrasena')?.invalid && this.form.get('contrasena')?.touched" class="p-2 bg-danger text-white">
+                    La contraseña debe tener de 1 a 16 caracteres
+                    </p>
+                  </div>
+                  <div class="inputWithIcon">
+                    <input type="password" placeholder="Confirmar Contraseña" 
+                    [class.input]="this.form.get('confirmarContrasena')?.valid || this.form.get('confirmarContrasena')?.untouched"
+                    [class.input-incorrecto]="this.form.get('confirmarContrasena')?.invalid && this.form.get('confirmarContrasena')?.touched"
+                    autofocus name="confirmarContrasena" formControlName="confirmarContrasena" />
+                    <i class="fa fa-key"></i>
+                    <p *ngIf="this.form.get('contrasena')?.value != this.form.get('confirmarContrasena')?.value && this.form.get('confirmarContrasena')?.touched" class="p-2 bg-danger text-white">
+                      Las contraseñas no coinciden
+                    </p>
+                  </div>
+                </div>
+              <div class="inputWithIcon">             
+                <label for="nombre" class="sr-only">Nombre</label>
+                <input type="text" 
+                [class.input]="this.form.get('nombre')?.valid || this.form.get('nombre')?.untouched"
+                [class.input-incorrecto]="this.form.get('nombre')?.invalid && this.form.get('nombre')?.touched"
+                placeholder="Nombre"  name="nombre" formControlName="nombre"/>
+                <i class="fa fa-pencil"></i>
+                <p *ngIf="this.form.get('nombre')?.invalid && this.form.get('nombre')?.touched" class="p-2 bg-danger text-white">
+                  El nombre debe tener entre 1 y 45 caracteres
+                </p>
+            </div>
+            <div class="inputWithIcon">
+              <label for="direccion" class="sr-only">Dirección</label>
+              <input type="text" 
+              [class.input]="this.form.get('direccion')?.valid || this.form.get('direccion')?.untouched"
+              [class.input-incorrecto]="this.form.get('direccion')?.invalid && this.form.get('direccion')?.touched"
+              placeholder="Dirección"  name="direccion" formControlName="direccion"/>
+              <i class="fa fa-globe"></i>
+              <p *ngIf="this.form.get('direccion')?.invalid && this.form.get('direccion')?.touched" class="p-2 bg-danger text-white">
+                La dirección debe tener entre 1 y 60 caracteres
+              </p>
+            </div>
+            <div class="inputWithIcon">
+              <label for="telefono" class="sr-only">Teléfono</label>
+              <input type="text" 
+              [class.input]="this.form.get('telefono')?.valid || this.form.get('telefono')?.untouched"
+              [class.input-incorrecto]="this.form.get('telefono')?.invalid && this.form.get('telefono')?.touched"
+              placeholder="Teléfono"  name="telefono" formControlName="telefono"/>
+              <i class="fa fa-phone"></i>
+              <p *ngIf="this.form.get('telefono')?.invalid && this.form.get('telefono')?.touched" class="p-2 bg-danger text-white">
+                El teléfono debe tener entre 1 y 12 caracteres
+              </p>
+            </div>
+            <div class="inputWithIcon">
+              <label for="codigoPostal" class="sr-only">Codigo Postal</label>
+              <input type="text" 
+              [class.input]="this.form.get('codigoPostal')?.valid || this.form.get('codigoPostal')?.untouched"
+              [class.input-incorrecto]="this.form.get('codigoPostal')?.invalid && this.form.get('codigoPostal')?.touched"
+              placeholder="Codigo Postal"  name="codigoPostal" formControlName="codigoPostal"/>
+              <i class="fa fa-book"></i>
+              <p *ngIf="this.form.get('codigoPostal')?.invalid && this.form.get('codigoPostal')?.touched" class="p-2 bg-danger text-white">
+                El Codigo Postal debe tener entre 1 y 10 caracteres
+              </p>
+            </div>
+            <select class="select input" name="tipoUsuario" id="tipoUsuario" formControlName="tipoUsuario">
+              <option value="0" selected>Tipo Usuario</option>
+              <option *ngFor="let tipo of usuarioTipos" [value]="tipo.idTipo">{{tipo.descripcionTipo}}</option>
+            </select>
+            <select class="select input" name="estado" id="estado" formControlName="estado" (change)="obtenerCiudades()">
+              <option value="0" selected>Estado</option>
+              <option *ngFor="let estado of estados" [value]="estado.idEstado">{{estado.descripcionEstado}}</option>
+            </select>         
+            <select class="select-final input" name="ciudad" id="ciudad" formControlName="ciudad">
+              <option value="0" selected>Ciudad</option>
+              <option *ngFor="let ciudad of ciudades" [value]="ciudad.idCiudad">{{ciudad.descripcionCiudad}}</option>
+            </select>
+            <br>
+            <div class="modal-footer"> 
+              <p *ngIf="this.form.invalid" class="p-2">
+                Nota: debes completar el formulario para poder guardar
+              </p>
+            <button type="button" class="btn" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" class="btn" data-bs-dismiss="modal"
+            [disabled]="this.form.invalid || this.form.get('contrasena')?.value != this.form.get('confirmarContrasena')?.value">Guardar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div><div class="modal" id="mod"></div>

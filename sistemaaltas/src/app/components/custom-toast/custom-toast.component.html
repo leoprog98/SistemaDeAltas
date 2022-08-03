@@ -1,0 +1,9 @@
+<div class="ngx-toastr toast-top-right toast-container toast-center-center" >
+  <div class="toast-title">
+    {{title}}
+  </div>
+    <div class="toast-message">
+      {{message}}<br>
+      <button *ngFor="let btn of options.buttons" class="btn btn-secondary" (click)="action(btn)">{{btn.title}}</button>
+    </div>
+</div>

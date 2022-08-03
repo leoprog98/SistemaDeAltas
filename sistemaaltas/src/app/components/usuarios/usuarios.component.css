@@ -1,0 +1,113 @@
+@import url(../login/login.component.css);
+
+.table {
+    width: 80%;
+    margin: auto;
+}
+
+tr{
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.btn-agregar{
+    text-align: right;
+    margin-top: 11%;
+}
+
+.input-incorrecto {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    margin-bottom: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: rgb(225, 82, 82);
+    box-shadow: 0 0 8px 0px #f55252e4;
+}
+
+.inputWithIcon .input-incorrecto {
+    color: rgb(225, 82, 82);
+}
+
+a{
+    cursor: pointer;
+}
+
+.fa-trash {
+    color: rgb(212, 73, 73);
+}
+
+.fa-edit {
+    color: rgb(71, 157, 184);
+}
+
+button{
+    background-color: #ff6633;
+    color: white;
+}
+
+.select{
+    height: 170%;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.select-final{
+    height: 170%;
+    width: 30%;
+}
+
+/*para hacerlo modal*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1800; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.entrega-true {
+    background-color: rgb(21, 138, 21);
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.entrega-false {
+    background-color: rgb(160, 65, 49);
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.paginador {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+@media (max-width: 900px){
+    .ocultar-columna{
+        display: none;
+    }
+
+    .ocultar-texto{
+        display: none;
+    }
+}

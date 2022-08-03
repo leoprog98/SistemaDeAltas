@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALTASAPICORE", "ALTASAPICORE\ALTASAPICORE.csproj", "{0B840465-0F0D-4428-9E68-D092FC3ECA19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B840465-0F0D-4428-9E68-D092FC3ECA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B840465-0F0D-4428-9E68-D092FC3ECA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B840465-0F0D-4428-9E68-D092FC3ECA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B840465-0F0D-4428-9E68-D092FC3ECA19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB972CC8-27F1-43A4-9E82-8D8BAA39D82B}
+	EndGlobalSection
+EndGlobal
