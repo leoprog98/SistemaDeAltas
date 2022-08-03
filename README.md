@@ -23,7 +23,7 @@ Sistema de altas de usuarios para el examen de Nezter
 <H5>Observaciones y notas</H5>
   <ul>
     <li>Supongo ya cuentan con el software solicitado para el examen </li>
-    <li>Para la base de datos dejo un link por si se ocupa de importar la bd </li>
+    <li>Para la base de datos dejo un link por si se ocupa de importar la bd <a href="https://parzibyte.me/blog/2019/05/25/importar-archivo-bak-base-de-datos-sql-server/#:~:text=Importar%20base%20de%20datos%20desde,datos%20%3E%20Restaurar%20base%20de%20datos%E2%80%A6&text=Aparecer%C3%A1%20una%20ventana.">click aquí</a> </li>
     <li>Puede que exista un usuario extra aparte del solicitado probando las acciones CRUD </li>
     <li>No soy muy experto en Angular Material pero lo use para la paginación, pero me ocasionó varios problemas</li>
     <li>Por si cualquier problema al ejecutar cualquier cosa de este repositorio comuniquese conmigo por el whatsapp</li>
