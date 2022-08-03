@@ -454,19 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\walmart\\.nuget\\packages\\": {}
+    "C:\\Users\\Leonardo Minjares\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\walmart\\source\\repos\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
+      "projectUniqueName": "C:\\Users\\Leonardo Minjares\\Documents\\GitHub\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
       "projectName": "ALTASAPICORE",
-      "projectPath": "C:\\Users\\walmart\\source\\repos\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
-      "packagesPath": "C:\\Users\\walmart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\walmart\\source\\repos\\ALTASAPICORE\\ALTASAPICORE\\obj\\",
+      "projectPath": "C:\\Users\\Leonardo Minjares\\Documents\\GitHub\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
+      "packagesPath": "C:\\Users\\Leonardo Minjares\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leonardo Minjares\\Documents\\GitHub\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\walmart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leonardo Minjares\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -515,7 +515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

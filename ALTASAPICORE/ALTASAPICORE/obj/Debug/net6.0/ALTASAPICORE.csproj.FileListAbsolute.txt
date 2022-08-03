@@ -31,3 +31,36 @@ C:\Users\walmart\source\repos\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\refint\
 C:\Users\walmart\source\repos\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.pdb
 C:\Users\walmart\source\repos\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.genruntimeconfig.cache
 C:\Users\walmart\source\repos\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ref\ALTASAPICORE.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\appsettings.json
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\ALTASAPICORE.staticwebassets.runtime.json
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\ALTASAPICORE.exe
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\ALTASAPICORE.deps.json
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\ALTASAPICORE.runtimeconfig.json
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\ALTASAPICORE.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\ALTASAPICORE.pdb
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.csproj.AssemblyReference.cache
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.AssemblyInfoInputs.cache
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.AssemblyInfo.cs
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.RazorAssemblyInfo.cache
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.RazorAssemblyInfo.cs
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\scopedcss\bundle\ALTASAPICORE.styles.css
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\scopedcss\projectbundle\ALTASAPICORE.bundle.scp.css
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.csproj.CopyComplete
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\refint\ALTASAPICORE.dll
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.pdb
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ALTASAPICORE.genruntimeconfig.cache
+C:\Users\Leonardo Minjares\Documents\GitHub\SistemaDeAltas\ALTASAPICORE\ALTASAPICORE\obj\Debug\net6.0\ref\ALTASAPICORE.dll
