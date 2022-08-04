@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aOFn9nWay+v/C/sCcoWP2DXIv3M1DurCceIdtfsmuHVfn0xLzvrJV89FZDmRuQJtTNkjJFCC/FwOtluGhg2VPQ==",
+  "dgSpecHash": "S9TRTwrnO8Yb8vNf7afDDK//v4CLtw91ZMWe25N4yDzuf8MGfoe4wKVDUAh55EpmvBo1vhFmtAx/LpuwlcwXag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leonardo Minjares\\Documents\\GitHub\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
+  "projectFilePath": "C:\\Users\\Leonardo Minjares\\Documents\\per\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonardo Minjares\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Leonardo Minjares\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

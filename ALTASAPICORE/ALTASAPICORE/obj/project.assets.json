@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leonardo Minjares\\Documents\\GitHub\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
+      "projectUniqueName": "C:\\Users\\Leonardo Minjares\\Documents\\per\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
       "projectName": "ALTASAPICORE",
-      "projectPath": "C:\\Users\\Leonardo Minjares\\Documents\\GitHub\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
+      "projectPath": "C:\\Users\\Leonardo Minjares\\Documents\\per\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\ALTASAPICORE.csproj",
       "packagesPath": "C:\\Users\\Leonardo Minjares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leonardo Minjares\\Documents\\GitHub\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\obj\\",
+      "outputPath": "C:\\Users\\Leonardo Minjares\\Documents\\per\\SistemaDeAltas\\ALTASAPICORE\\ALTASAPICORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leonardo Minjares\\AppData\\Roaming\\NuGet\\NuGet.Config",
