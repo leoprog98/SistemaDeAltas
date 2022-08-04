@@ -11,7 +11,7 @@ Sistema de altas de usuarios para el examen de Nezter
   <ul>
     <li>Primero se debe agregar la base de datos con el archivo SISTEMADALTAS.bak ubicado en la carpeta bd</li>
     <li>Una vez este agregada la base de datos, entrar a la carpeta ALTASAPICORE y ejecutar el archivo ALTASAPICORE.sln</li>
-    <li>Una vez abierto el proyecto, en las opciones para iniciar, indicar que se ejecutará con iiexpress y dar al botón de iniciar</li>
+    <li>Una vez abierto el proyecto, dar al botón de iniciar, donde dice <b>ALTASAPICORE</b></li>
     <li>Una vez ejecutado el proyecto ALTASAPICORE y abierto el navegador, se abre un cmd o símbolo del sistema para ejecutar el proyecto de angular</li>
     <li>Debe de acceder a la carpeta sistemadealtas que se encuentra en este repositorio</li>
     <li>Una vez dentro ejecutar el comando: <b>npm i</b></li>
